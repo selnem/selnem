@@ -12,12 +12,13 @@
 
 - **한국항공대학교**에 재학 중이며, **멋쟁이사자처럼 13기 / 14기**로 활동하고 있습니다.
 - **Java / Spring** 기반 백엔드를 주로 개발하고, **FastAPI**로 AI 서비스 백엔드도 만듭니다.
+- **React** 프론트엔드와 **Kotlin Android 앱** 개발 경험도 있습니다.
 - 인증/인가 설계(JWT, OAuth2), AWS 배포 자동화(Elastic Beanstalk, GitHub Actions), LLM·RAG 연동에 관심이 많습니다.
 
 ## 기술 스택
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,python,fastapi&perline=8" alt="Java, Kotlin, Spring, Python, FastAPI" />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,python,fastapi,react&perline=8" alt="Java, Kotlin, Spring, Python, FastAPI, React" />
   <br/>
   <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,aws,docker,githubactions,git&perline=8" alt="PostgreSQL, MySQL, Redis, AWS, Docker, GitHub Actions, Git" />
 </p>
@@ -49,16 +50,16 @@
 - 검사 결과 PDF 점수 자동 추출, 입학 성적 데이터 매핑·분석
 - JWT + OAuth 인증, AWS S3 파일 관리
 
-### [CODA 백엔드](https://github.com/kau-likelion-13th/CODA-Backend)
+### CODA — [백엔드](https://github.com/kau-likelion-13th/CODA-Backend) · [프론트엔드](https://github.com/kau-likelion-13th/CODA-Frontend)
 
-멋쟁이사자처럼 13기 팀 프로젝트 백엔드입니다.
+멋쟁이사자처럼 13기 팀 프로젝트입니다. 백엔드와 프론트엔드를 모두 개발했습니다.
 
-- Spring Boot · MySQL · Swagger
-- AWS Elastic Beanstalk 배포
+- 백엔드: Spring Boot · MySQL · Swagger, AWS Elastic Beanstalk 배포
+- 프론트엔드: React
 
-### [DevMart 백엔드](https://github.com/ObjCodingDevMart/Back-End)
+### DevMart — [백엔드](https://github.com/ObjCodingDevMart/Back-End) · [Android 앱](https://github.com/ObjCodingDevMart/Front-end)
 
-Kotlin / Spring Boot 기반 백엔드입니다.
+Kotlin 기반 프로젝트입니다. Spring Boot 백엔드와 Android 앱 개발에 참여했습니다.
 
 ## 그 외
 
