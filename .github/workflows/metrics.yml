@@ -34,7 +34,13 @@ jobs:
           commits_authoring: selnem, tjdghks0130@naver.com
           plugin_languages: yes
           plugin_languages_limit: 8
-          plugin_languages_colors: github
+          # indepth 분석에서 색 메타데이터가 빠져 회색으로 나오는 문제를
+          # 피하기 위해 GitHub 공식 언어 색을 직접 지정
+          plugin_languages_colors: >-
+            java:#b07219, python:#3572A5, kotlin:#A97BFF,
+            javascript:#f1e05a, css:#663399, shell:#89e051,
+            plpgsql:#336790, dockerfile:#384d54, jinja:#a52a2a,
+            procfile:#3A4EAD
           plugin_languages_details: percentage
           plugin_languages_indepth: yes
           # 자동 수집에서 누락되는 저장소를 명시적으로 분석 대상에 추가
