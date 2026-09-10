@@ -1,8 +1,8 @@
 <div align="center">
 
-# 안녕하세요, 전성환입니다
+![header](https://capsule-render.vercel.app/api?type=waving&color=0%3A2f80ed%2C100%3A56ccf2&height=190&section=header&text=%EC%A0%84%EC%84%B1%ED%99%98&fontSize=48&fontColor=ffffff&desc=Backend%20Developer&descAlignY=75&animation=fadeIn)
 
-백엔드를 중심으로 서비스를 만드는 개발자입니다.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=460&lines=Java+%2F+Spring+Backend+Developer;%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC+13%2F14%EA%B8%B0" alt="Java / Spring Backend Developer" />
 
 한국항공대학교 · 멋쟁이사자처럼 13기 / 14기 · Java / Spring
 
@@ -47,10 +47,15 @@ Kotlin / Spring 기반 백엔드입니다.
 ## GitHub 통계
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=selnem&show_icons=true&hide_border=true&locale=ko" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=selnem&layout=compact&hide_border=true&locale=ko" alt="Top languages" />
+  <img src="./github-metrics.svg" alt="GitHub metrics" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=selnem&hide_border=true" alt="GitHub streak" />
+  <img src="https://ghchart.rshah.org/2f80ed/selnem" alt="Contribution graph" />
 </p>
+
+<div align="center">
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0%3A2f80ed%2C100%3A56ccf2&height=120&section=footer)
+
+</div>
