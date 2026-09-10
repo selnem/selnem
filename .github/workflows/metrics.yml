@@ -28,6 +28,10 @@ jobs:
           config_timezone: Asia/Seoul
           # 조직 저장소까지 포함해 본인이 작성한 커밋 기준으로 언어를 집계
           repositories_affiliations: owner, collaborator, organization_member
+          repositories: 200
+          # 커밋 작성자 이름이 selnem / CODA / 전성환으로 섞여 있어
+          # 공통 이메일로 본인 커밋을 식별한다
+          commits_authoring: selnem, tjdghks0130@naver.com
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_colors: github
