@@ -9,7 +9,7 @@ COLORS = {
     "shell": "#89e051",
     "python": "#3572A5",
     "javascript": "#f1e05a",
-    "css": "#663399",
+    "css": "#563d7c",
     "dockerfile": "#384d54",
     "jinja": "#a52a2a",
     "procfile": "#3A4EAD",
@@ -49,16 +49,24 @@ entries = re.findall(
 order = sorted(((n.strip(), float(p)) for n, p in entries), key=lambda x: -x[1])
 
 # 3) 막대 rect를 순서대로 색칠 (캘린더 셀은 mask 속성이 없어 안전)
-bar_re = re.compile(r'(<rect mask="url\(#languages-bar\)"[^>]*fill=")(#[0-9a-fA-F]{6})("/>)')
+bar_re = re.compile(
+    r'(<rect mask="url\(#languages-bar\)" x="[^"]+" y="[^"]+" width="([^"]+)" height="[^"]+" fill=")(#[0-9a-fA-F]{6})("/>)'
+)
 idx = 0
 
 def bar_sub(m):
     global idx
+    try:
+        width = float(m.group(2))
+    except ValueError:
+        width = 0
+    if width <= 0:
+        return m.group(0)
     color = None
     if idx < len(order):
         color = COLORS.get(order[idx][0].lower())
     idx += 1
-    return m.group(1) + (color or m.group(2)) + m.group(3)
+    return m.group(1) + (color or m.group(3)) + m.group(4)
 
 svg = bar_re.sub(bar_sub, svg)
 

@@ -34,9 +34,11 @@ jobs:
           commits_authoring: selnem, tjdghks0130@naver.com
           plugin_languages: yes
           plugin_languages_limit: 8
-          # 언어별 매핑이 미적용되어 순위 순서 팔레트로 색 지정
-          # (Java, Python, Kotlin, JS, PLpgSQL, CSS, Shell, Dockerfile 순)
-          plugin_languages_colors: "#b07219, #3572A5, #A97BFF, #f1e05a, #336790, #663399, #89e051, #384d54"
+          # GitHub linguist 색을 언어 이름으로 지정 (순위 팔레트는 막대/범례가 어긋남)
+          plugin_languages_colors: >-
+            java:#b07219, python:#3572A5, kotlin:#A97BFF,
+            javascript:#f1e05a, css:#563d7c, shell:#89e051,
+            plpgsql:#336790, dockerfile:#384d54
           plugin_languages_details: percentage
           plugin_languages_indepth: yes
           # 자동 수집에서 누락되는 저장소를 명시적으로 분석 대상에 추가
