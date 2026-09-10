@@ -30,5 +30,9 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_colors: github
           plugin_languages_details: percentage
+          # 수업 과제·학습용 저장소는 언어 통계에서 제외 (C 비중 왜곡 방지)
+          plugin_languages_skipped: >-
+            OSlecture, osAssignment, st7789, pngToc,
+            codetree-TILs, curly-disco, CODA_algorithm
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
