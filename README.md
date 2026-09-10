@@ -40,9 +40,9 @@
 
 Kotlin / Spring 기반 백엔드입니다.
 
-### [AI 검사 시스템](https://github.com/gotothesky2/AI)
+### [입시혁명 AI 백엔드](https://github.com/gotothesky2/AI)
 
-FastAPI로 흥미·적성 검사와 입학 성적 분석을 제공하는 API입니다.
+입시혁명의 FastAPI 기반 AI 백엔드입니다.
 
 ## GitHub 통계
 
