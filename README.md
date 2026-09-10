@@ -33,12 +33,12 @@
 - JWT / OAuth2 소셜 로그인, Spring AI 기반 RAG 파이프라인
 - AWS Elastic Beanstalk 배포와 GitHub Actions CI/CD
 
-### [이슈있슈](https://github.com/IssueIssyu/issueissyu-BE)
+### [이슈있슈 AI](https://github.com/IssueIssyu/issueissyu-AI)
 
-지역 기반 이슈·민원 서비스입니다. 2026년 1학기 산학프로젝트로 진행했습니다.
+지역 기반 이슈·민원 서비스입니다. 2026년 1학기 산학프로젝트로, AI 서비스를 메인으로 개발했습니다.
 
+- [AI 서비스](https://github.com/IssueIssyu/issueissyu-AI): FastAPI · PostgreSQL(PostGIS, pgvector) · Gemini 기반 이미지·텍스트 분석, RAG 검색, 이슈 핀 신뢰도 평가, 민원 의견서 자동 생성·이메일 발송
 - [백엔드](https://github.com/IssueIssyu/issueissyu-BE): Java / Spring
-- [AI 서비스](https://github.com/IssueIssyu/issueissyu-AI): FastAPI 기반 이미지·텍스트 분석, RAG 검색, 민원 의견서 자동 생성
 
 ## 과거 프로젝트
 
