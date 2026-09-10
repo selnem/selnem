@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&height=200&color=0%3A0f2027%2C50%3A203a43%2C100%3A2c5364&text=%EC%A0%84%EC%84%B1%ED%99%98&fontSize=46&fontColor=ffffff&desc=Backend%20Developer&descAlignY=76&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&height=200&color=0%3A0f2027%2C50%3A203a43%2C100%3A2c5364&text=CODA&fontSize=52&fontColor=ffffff&desc=Backend%20Developer&descAlignY=76&animation=fadeIn)
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&center=true&vCenter=true&width=460&color=64FFDA&lines=Java+%2F+Spring+Backend+Developer;%ED%95%9C%EA%B5%AD%ED%95%AD%EA%B3%B5%EB%8C%80%ED%95%99%EA%B5%90;%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC+13%2F14%EA%B8%B0" alt="Java / Spring Backend Developer" />
 
