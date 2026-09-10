@@ -47,3 +47,17 @@ jobs:
             codetree-TILs, curly-disco, CODA_algorithm
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
+      # metrics가 푸시한 SVG를 받아 언어 색을 보정 후 다시 푸시
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Fix language colors
+        run: python3 .github/scripts/fix_language_colors.py github-metrics.svg
+      - name: Commit recolored SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-metrics.svg
+          git diff --cached --quiet || git commit -m "Fix language colors - [Skip GitHub Action]"
+          git push
