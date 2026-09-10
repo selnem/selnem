@@ -37,6 +37,8 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_details: percentage
           plugin_languages_indepth: yes
+          # 자동 수집에서 누락되는 저장소를 명시적으로 분석 대상에 추가
+          plugin_languages_indepth_custom: kau-likelion-13th/CODA-Frontend
           # 수업 과제·학습용 저장소는 언어 통계에서 제외 (C 비중 왜곡 방지)
           plugin_languages_skipped: >-
             OSlecture, osAssignment, st7789, pngToc,
