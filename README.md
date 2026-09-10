@@ -10,39 +10,60 @@
 
 ## 소개
 
-- **한국항공대학교**
-- **멋쟁이사자처럼** 13기 / 14기
-- Java / Spring 기반 백엔드
+- **한국항공대학교**에 재학 중이며, **멋쟁이사자처럼 13기 / 14기**로 활동하고 있습니다.
+- **Java / Spring** 기반 백엔드를 주로 개발하고, **FastAPI**로 AI 서비스 백엔드도 만듭니다.
+- 인증/인가 설계(JWT, OAuth2), AWS 배포 자동화(Elastic Beanstalk, GitHub Actions), LLM·RAG 연동에 관심이 많습니다.
 
 ## 기술 스택
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,postgres,redis,aws,docker,python,kotlin,git" alt="Java, Spring, PostgreSQL, Redis, AWS, Docker, Python, Kotlin, Git" />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,python,fastapi&perline=8" alt="Java, Kotlin, Spring, Python, FastAPI" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,aws,docker,githubactions,git&perline=8" alt="PostgreSQL, MySQL, Redis, AWS, Docker, GitHub Actions, Git" />
 </p>
 
 ## 주요 프로젝트
 
 ### [개구락지 백엔드](https://github.com/GaGuRacZi/BackEnd)
 
-반려동물 관련 서비스 백엔드입니다. Spring Boot, PostgreSQL, Redis, AWS로 구성되어 있습니다.
+반려동물 관련 서비스 백엔드입니다.
+
+- Java 21 · Spring Boot · PostgreSQL(PostGIS) · Redis
+- JWT / OAuth2 소셜 로그인, Spring AI 기반 RAG 파이프라인
+- AWS Elastic Beanstalk 배포와 GitHub Actions CI/CD
 
 ### [이슈있슈](https://github.com/IssueIssyu/issueissyu-BE)
 
-2026년 1학기 산학프로젝트입니다. [백엔드](https://github.com/IssueIssyu/issueissyu-BE)와 함께 [AI 서비스](https://github.com/IssueIssyu/issueissyu-AI)에서 이미지·텍스트 분석과 RAG 파이프라인을 담당했습니다.
+지역 기반 이슈·민원 서비스입니다. 2026년 1학기 산학프로젝트로 진행했습니다.
+
+- [백엔드](https://github.com/IssueIssyu/issueissyu-BE): Java / Spring
+- [AI 서비스](https://github.com/IssueIssyu/issueissyu-AI): FastAPI 기반 이미지·텍스트 분석, RAG 검색, 민원 의견서 자동 생성
 
 ## 과거 프로젝트
-
-### [CODA 백엔드](https://github.com/kau-likelion-13th/CODA-Backend)
-
-멋쟁이사자처럼 13기 팀 프로젝트 백엔드입니다. Spring Boot, MySQL로 구성되어 있습니다.
-
-### [DevMart 백엔드](https://github.com/ObjCodingDevMart/Back-End)
-
-Kotlin / Spring 기반 백엔드입니다.
 
 ### [입시혁명 AI 백엔드](https://github.com/gotothesky2/AI)
 
 입시혁명의 FastAPI 기반 AI 백엔드입니다.
+
+- GPT를 활용한 흥미검사(HMT)·직업적성검사(CST) 리포트 생성
+- 검사 결과 PDF 점수 자동 추출, 입학 성적 데이터 매핑·분석
+- JWT + OAuth 인증, AWS S3 파일 관리
+
+### [CODA 백엔드](https://github.com/kau-likelion-13th/CODA-Backend)
+
+멋쟁이사자처럼 13기 팀 프로젝트 백엔드입니다.
+
+- Spring Boot · MySQL · Swagger
+- AWS Elastic Beanstalk 배포
+
+### [DevMart 백엔드](https://github.com/ObjCodingDevMart/Back-End)
+
+Kotlin / Spring Boot 기반 백엔드입니다.
+
+## 그 외
+
+- 알고리즘 문제 풀이: [CODA_algorithm](https://github.com/selnem/CODA_algorithm), [codetree-TILs](https://github.com/selnem/codetree-TILs)
+- OS / 시스템 프로그래밍 학습: [OSlecture](https://github.com/selnem/OSlecture), [osAssignment](https://github.com/selnem/osAssignment)
 
 ## GitHub 통계
 
